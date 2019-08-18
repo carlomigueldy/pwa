@@ -7,8 +7,8 @@
     </ion-header>
     <ion-content class="ion-padding">
       <ZipSearch v-on:get-zip="getZipInfo" />
-      <ClearInfo :info="info" v-on:clear-info="clearInfo" />
       <ZipInfo :info="info" />
+      <ClearInfo :info="info" v-on:clear-info="clearInfo" />
     </ion-content>
   </div>
 </template>
